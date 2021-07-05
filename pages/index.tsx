@@ -39,6 +39,10 @@ export default function Home({ allPostsData, profileData }: Props) {
         <h2 className={utilStyles.headingLg}>Profile</h2>
         <div dangerouslySetInnerHTML={{ __html: profileData.contentHtml }} />
       </section>
+      {/* <section>
+        <h2 className={utilStyles.headingLg}>Profile</h2>
+        <div dangerouslySetInnerHTML={{ __html: profileData.contentHtml }} />
+      </section> */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
