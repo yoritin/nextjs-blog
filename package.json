@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/gtag.js": "^0.0.10",
     "@types/node": "16.11.39",
-    "@types/react": "18.0.12",
+    "@types/react": "18.0.15",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.2",
     "eslint-config-prettier": "^8.5.0",
